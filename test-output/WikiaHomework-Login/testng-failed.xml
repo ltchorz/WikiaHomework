@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WikiaHomework-Login]">
+  <parameter name="password" value="SuperSecretPassword"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="username" value="ltchorz"/>
+  <test name="FirefoxAddVideoTest(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testPack.AddVideoTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="testAddVideo"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testPack.AddVideoTest -->
+    </classes>
+  </test> <!-- FirefoxAddVideoTest(failed) -->
+  <test name="ChromeAddVideoTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testPack.AddVideoTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="testAddVideo"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testPack.AddVideoTest -->
+    </classes>
+  </test> <!-- ChromeAddVideoTest(failed) -->
+</suite> <!-- Failed suite [WikiaHomework-Login] -->

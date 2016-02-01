@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WikiaHomework-Login" duration-ms="237153" started-at="2016-02-01T09:21:46Z" finished-at="2016-02-01T09:25:43Z">
+    <groups>
+    </groups>
+    <test name="FirefoxAddVideoTest" duration-ms="120915" started-at="2016-02-01T09:21:46Z" finished-at="2016-02-01T09:23:47Z">
+      <class name="testPack.AddVideoTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testPack.AddVideoTest@11baa65]" name="beforeClass" is-config="true" duration-ms="45263" started-at="2016-02-01T10:21:46Z" finished-at="2016-02-01T10:22:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testPack.AddVideoTest@11baa65]" name="beforeTest" is-config="true" duration-ms="28516" started-at="2016-02-01T10:22:32Z" finished-at="2016-02-01T10:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testAddVideo()[pri:0, instance:testPack.AddVideoTest@11baa65]" name="testAddVideo" duration-ms="44813" started-at="2016-02-01T10:23:00Z" finished-at="2016-02-01T10:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddVideo -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testPack.AddVideoTest@11baa65]" name="afterClass" is-config="true" duration-ms="2299" started-at="2016-02-01T10:23:45Z" finished-at="2016-02-01T10:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testPack.AddVideoTest -->
+    </test> <!-- FirefoxAddVideoTest -->
+    <test name="ChromeAddVideoTest" duration-ms="116137" started-at="2016-02-01T09:23:47Z" finished-at="2016-02-01T09:25:43Z">
+      <class name="testPack.AddVideoTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testPack.AddVideoTest@17a2457]" name="beforeClass" is-config="true" duration-ms="38598" started-at="2016-02-01T10:23:47Z" finished-at="2016-02-01T10:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testPack.AddVideoTest@17a2457]" name="beforeTest" is-config="true" duration-ms="30553" started-at="2016-02-01T10:24:26Z" finished-at="2016-02-01T10:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testAddVideo()[pri:0, instance:testPack.AddVideoTest@17a2457]" name="testAddVideo" duration-ms="44768" started-at="2016-02-01T10:24:56Z" finished-at="2016-02-01T10:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddVideo -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testPack.AddVideoTest@17a2457]" name="afterClass" is-config="true" duration-ms="2214" started-at="2016-02-01T10:25:41Z" finished-at="2016-02-01T10:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testPack.AddVideoTest -->
+    </test> <!-- ChromeAddVideoTest -->
+  </suite> <!-- WikiaHomework-Login -->
+</testng-results>

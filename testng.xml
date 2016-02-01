@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="WikiaHomework-Login">
+<parameter name="username" value="ltchorz"/>
+<parameter name="password" value="SuperSecretPassword"/>
+
+  <test verbose="2" name="FirefoxLoginTest">
+  <parameter name="browserName" value="firefox" />
+    <classes> 
+      <class name="testPack.LoginTest"/>
+    </classes>
+  </test> <!-- FirefoxLoginTest -->
+  <test verbose="2" name="ChromeLoginTest">
+  <parameter name="browserName" value="chrome" />
+    <classes> 
+      <class name="testPack.LoginTest"/>
+    </classes>
+    </test> <!-- ChromeLoginTest --> 
+    
+  <test verbose="2" name="FirefoxAddVideoTest">
+  <parameter name="browserName" value="firefox" />
+    <classes> 
+      <class name="testPack.AddVideoTest"/>
+    </classes>
+  </test> <!-- FirefoxAddVideoTest -->
+  <test verbose="2" name="ChromeAddVideoTest">
+  <parameter name="browserName" value="chrome" />
+    <classes> 
+      <class name="testPack.AddVideoTest"/>
+    </classes>
+  </test>
+</suite> <!-- Default suite -->            
